@@ -1,0 +1,19 @@
+.text-area {
+    padding: 8px 18px;
+    background-color: none;
+    border: 2px #80ced7 solid;
+    color: #1e1e1e;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:960px) {
+    .text-area {
+        padding: 4px 9px;
+        border-radius: 4px;
+        font-size: 10px;
+        margin-right: 6px;
+    }
+}

@@ -1,0 +1,59 @@
+.abt-left {
+    width: 55%;
+    padding-left: 18%;
+
+    height: 100%;
+}
+
+.abt {
+    height: 500px;
+    padding-bottom: 60px;
+}
+
+.abt-right {
+    width: 45%;
+    height: 100%;
+}
+.abt-icons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.abt-icon {
+    padding: 10px 10px 10px 10px;
+}
+
+.abt-h2 {
+    font-weight: 100;
+}
+
+@media screen and (max-width:1280px) {
+    .abt-left {
+        padding-left: 7%;
+    }
+}
+
+@media screen and (max-width:960px) {
+
+    .abt-icon {
+        padding: 5px 5px 5px 5px;
+    }
+
+    .abt-icon-main {
+        width: 48px;
+    }
+
+    .abt-icons {
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+
+
+    .abt-h1 {
+        font-size: 48px;
+    }
+
+    .abt-h2 {
+        font-size: 18px;
+    }
+}

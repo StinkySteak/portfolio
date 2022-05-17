@@ -1,0 +1,51 @@
+.main {
+    height: 500px;
+}
+
+.main-left {
+    padding-left: 15%;
+}
+
+.main-text {
+    font-size: 32px;
+}
+
+.main-left-text {
+    padding-right: 120px;
+}
+
+.main-img {
+
+    max-width: 400px;
+}
+
+@media screen and (max-width:960px) {
+    .main-text {
+        font-size: 24px;
+    }
+
+    .main-left-text {
+        padding-right: 0px;
+    }
+
+    .main-left {
+        padding-left: 50px;
+    }
+
+    .main-img {
+        width: 80%;
+        min-width: 100px;
+
+        max-width: none;
+    }
+
+    .main-header {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main-img {
+        width: 80%;
+    }
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  color: #003249;
+  font-weight: 2000;
+
+  margin: 0px 0px 0px 0px;
+}
+
+.padding-top {
+  padding-top: 40px;
+}
+
+.text-64 {
+  font-size: 64px;
+}
+
+.text-48 {
+  font-size: 48px;
+}
+
+.text-28 {
+  font-size: 28px;
+}
+
+.flex-left {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.border {
+  border: red 2px solid;
+}
+
+.flex-right {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+}
+
+.flex-bottom {
+  bottom: 100px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.bg {
+  background-color: #ccdbdc;
+}
+
+.bg-2 {
+  background-color: #003249;
+}
+
+.bg-3 {
+  background-color: #9ad1d4;
+}
+
+.color-bright {
+  color: #ccdbdc;
+}
+
+.white {
+  color: #9ad1d4;
+}
+
+.middle {
+  color: #80ced7;
+}
+
+.celadon {
+  color: #007ea7;
+}
+
+.color-dark {
+  color: #003249;
+}
+
+
+.text-center {
+  text-align: center;
+}

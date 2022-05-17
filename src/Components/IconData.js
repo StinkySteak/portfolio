@@ -1,0 +1,26 @@
+export const IconData = [
+    {
+        icon:
+            'React-icon.webp'
+    },
+    {
+        icon:
+            'css.webp'
+    },
+    {
+        icon:
+            'html.png'
+    },
+    {
+        icon:
+            'unity3d.webp'
+    },
+    {
+        icon:
+            'blazor.webp'
+    },
+    {
+        icon:
+            'c.png'
+    }
+];
