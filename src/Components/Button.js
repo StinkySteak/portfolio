@@ -1,14 +1,15 @@
 import React from 'react'
 import './Button.css'
+import { ExternalLink } from 'react-external-link';
 
 function Button(props) {
     return (
         <div>
-            <button className='btn'>
-                <a target={'_blank'} rel='noreferrer' href={props.href}>
+            <ExternalLink href={props.href}>
+                <button className='btn'>
                     <strong>{props.text}</strong>
-                </a>
-            </button>
+                </button>
+            </ExternalLink>
         </div>
     )
 }

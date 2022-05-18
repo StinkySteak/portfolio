@@ -20,7 +20,7 @@ function Project() {
           title='Ethereum Wallet Manager'
           desc='This project is intended to display ERC1155 and ERC721 Tokens that is not displayed on Metamask Extension. Not only that it can be used transfer assets'
           btn='Live Demo'
-          href='https://ico-calculator.steaksoft.net/'
+          href='https:/wallet.steaksoft.net/'
           img='Images/wallet.png'
           language={['Blazor','C#','Nethereum']}
           
