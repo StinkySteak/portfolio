@@ -38,6 +38,10 @@ h2 {
   font-size: 64px;
 }
 
+.text-64-pwa {
+  font-size: min(max(32px, 4vw), 200px);
+}
+
 .text-48 {
   font-size: 48px;
 }

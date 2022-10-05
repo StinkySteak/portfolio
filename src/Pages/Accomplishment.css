@@ -1,0 +1,18 @@
+.badges {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+}
+
+.accomplishment
+{
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 960px) {
+    .badges
+    {
+        display: flex;
+       flex-direction: column;
+    }
+}

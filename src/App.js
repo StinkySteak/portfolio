@@ -5,6 +5,7 @@ import Main from './Pages/Main';
 import Project from './Pages/Project'
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import Accomplishment from './Pages/Accomplishment';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       
       <AboutMe/>
       <Project/>
+      <Accomplishment/>
       <Footer/>
     </>
   );

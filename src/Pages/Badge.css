@@ -1,0 +1,22 @@
+.badge
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.badge-img
+{
+    width: 100%;
+}
+
+.badge-img-container
+{
+    max-width: 300px;
+}
+
+.badge-text-container
+{
+    width: auto;
+    height: 100%;
+}

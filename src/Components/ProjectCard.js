@@ -22,13 +22,23 @@ function ProjectCard(props) {
               text={lang}
             />)}
         </div>
-        <div className='card-button'>
-          <Button
-            href={props.href}
-            text={props.btn}
-          />
-        </div>
+        <div className='card-button-list'>
+        
+        {props.buttons.map((b) =>
 
+          
+
+        <div className='card-button'>
+            <Button
+              text={b.btnName}
+              href={b.href}
+            />
+            
+            </div>
+            )}
+        
+       
+        </div>
       </div>
     </div>
   )
