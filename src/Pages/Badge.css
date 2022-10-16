@@ -7,16 +7,26 @@
 
 .badge-img
 {
-    width: 100%;
+    max-width: 200px;
+    max-height: 300px;
+    min-height: 100px;
 }
 
 .badge-img-container
 {
-    max-width: 300px;
+    width: 100%;
+    min-height: 220px;
 }
 
 .badge-text-container
 {
     width: auto;
     height: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .empty
+    {
+       display: none;
+    }
 }

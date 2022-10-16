@@ -46,6 +46,10 @@ h2 {
   font-size: 48px;
 }
 
+.text-48-pwa {
+  font-size:min(max(32px, 4vw), 200px);
+}
+
 .text-28 {
   font-size: 28px;
 }
@@ -54,6 +58,14 @@ h2 {
   align-items: center;
   display: flex;
   justify-content: left;
+}
+
+.flex-vertical
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .width-50 {

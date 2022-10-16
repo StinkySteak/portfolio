@@ -1,0 +1,14 @@
+.skill
+{
+    background-color: #003249;
+    padding-bottom: 40px;
+}
+.abt-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.abt-icon {
+    padding: 10px 10px 10px 10px;
+}

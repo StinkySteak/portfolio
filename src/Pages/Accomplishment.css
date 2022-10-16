@@ -1,5 +1,4 @@
 .badges {
-    padding-top: 80px;
     display: grid;
     grid-template-columns: 350px 350px 350px;
 }
@@ -8,8 +7,15 @@
 {
     padding-bottom: 100px;
 }
+.featured
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border: solid 2px #003249;
+    background-color: #fafafa;
+}
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1100px) {
     .badges
     {
         display: flex;

@@ -5,6 +5,10 @@ export const IconData = [
     },
     {
         icon:
+            'blender.png'
+    },
+    {
+        icon:
             'css.webp'
     },
     {
