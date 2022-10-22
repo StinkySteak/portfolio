@@ -5,7 +5,7 @@ import './Project.css'
 function Project() {
   return (
     <div className='bg padding-top'>
-      <h1 className='text-center text-64'>PROJECT</h1>
+      <h1 className='text-center text-64-pwa'>PROJECT</h1>
       <div className='project-cards'>
 
 
@@ -32,6 +32,16 @@ function Project() {
             ]}
         />
 
+        <ProjectCard
+          title='ISP I SPY'
+          desc='Overwatch/TF2 reference based game, built for Global Game Jam 2022. Playable up to 6 Players'
+          img='Images/isp.png'
+          language={['Unity3d', 'C#', 'Photon Fusion']}
+          buttons={
+            [
+              { btnName: 'Download', href: 'https://mysterioushatter.itch.io/isp-i-spy' },
+            ]}
+        />
 
         <ProjectCard
           title='Ethereum Wallet Manager'
@@ -58,6 +68,29 @@ function Project() {
             ]}
         />
 
+        <ProjectCard
+          title='SteakSoft Website'
+          desc='Official website to present developed game by SteakSoft'
+          img='Images/steaksoft.png'
+          language={['React JS']}
+
+          buttons={
+            [
+              { btnName: 'Live Demo', href: 'https://steaksoft.net/' },
+            ]}
+        />
+
+        <ProjectCard
+          title='Unikopi Website'
+          desc='Official Unikopi Website'
+          img='Images/unikopi.png'
+          language={['React JS']}
+
+          buttons={
+            [
+              { btnName: 'Live Demo', href: 'https://unikopi.com/' },
+            ]}
+        />
 
       </div>
     </div>

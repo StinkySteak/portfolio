@@ -1,17 +1,15 @@
 .abt-left {
-    width: 80%;
+    
     height: 100%;
+    padding-left: 15%;
+    padding-right: 10%;
 }
 
 .abt {
     max-height: 800px;
-    min-height: 400px;
+    min-height: 300px;
 }
 
-.abt-right {
-    width: 20%;
-    height: 100%;
-}
 
 .abt-h2 {
     font-weight: 100;

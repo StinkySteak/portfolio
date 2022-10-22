@@ -12,17 +12,16 @@ function Accomplishment() {
                     <div className='featured' style={{ marginTop: '50px' }}>
                         <h1 style={{ marginTop: '50px' }} className='text-center text-48-pwa'>HIGHLIGHTED</h1>
 
-                        <div className='badges '>
+                        <div className='badges-flex '>
                             <Badge
-                                empty={true}
+                                title="Microsoft Certified: Azure Fundamentals"
+                                link="https://www.credly.com/badges/2127a936-d9d0-4ebf-ba9a-d30223c20aa6/public_url"
+                                img="Images/az.png"
                             />
                             <Badge
                                 title="AWS Certified Cloud Practitioner"
                                 link="https://www.credly.com/badges/9860c2cd-ecf5-48a2-b6cc-ccb307e64800/public_url"
                                 img="Images/aws_ccp.png"
-                            />
-                            <Badge
-                                empty={true}
                             />
                         </div>
                     </div>

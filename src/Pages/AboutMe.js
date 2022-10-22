@@ -5,7 +5,7 @@ import './AboutMe.css'
 function AboutMe() {
 
   return (
-    <div className='flex-center bg-2 abt '>
+    <div className='flex-center  bg-2 abt '>
       <div className='abt-left  flex-right'>
         <div className=''>
           <h1 className='text-64 abt-h1 color-bright'>ABOUT ME</h1>

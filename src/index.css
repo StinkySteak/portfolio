@@ -39,7 +39,7 @@ h2 {
 }
 
 .text-64-pwa {
-  font-size: min(max(32px, 4vw), 200px);
+  font-size: min(10vw,64px);
 }
 
 .text-48 {
@@ -47,7 +47,7 @@ h2 {
 }
 
 .text-48-pwa {
-  font-size:min(max(32px, 4vw), 200px);
+  font-size: min(10vw,48px);
 }
 
 .text-28 {
