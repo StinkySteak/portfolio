@@ -13,7 +13,7 @@ function Project() {
           title='Stagdraft'
           desc='A 2D Multiplayer Pixelated top down PvP Team based War game. Ranging between 10-16 max Players. Players are able to Craft, Build, Loot & Fight NPC'
           img='Images/project_stagdraft.png'
-          language={['Unity3d', 'C#', 'Photon Fusion', 'ASP. NET', 'React JS', 'Steamworks']}
+          language={['Unity3d', 'C#', 'Photon Fusion', 'ASP. NET', 'React JS', 'AWS']}
           buttons={
             [
               { btnName: 'Website', href: 'https://stagdraft.steaksoft.net' },
@@ -32,6 +32,19 @@ function Project() {
             ]}
         />
 
+
+<ProjectCard
+          title='HexPlanet'
+          desc='A Game built prior to Binus Game Jam 2022 in 2 days'
+          img='Images/hex.png'
+          language={['Unity3d','C#']}
+
+          buttons={
+            [
+              { btnName: 'Live Demo', href: 'https://stinkysteak.itch.io/hexplanet' },
+              { btnName: 'Source code', href: 'https://github.com/StinkySteak/HexPlanet' },
+            ]}
+        />
         <ProjectCard
           title='ISP I SPY'
           desc='Overwatch/TF2 reference based game, built for Global Game Jam 2022. Playable up to 6 Players'
@@ -40,6 +53,7 @@ function Project() {
           buttons={
             [
               { btnName: 'Download', href: 'https://mysterioushatter.itch.io/isp-i-spy' },
+              { btnName: 'Source code', href: 'https://github.com/StinkySteak/ProjectR' },
             ]}
         />
 
@@ -68,29 +82,7 @@ function Project() {
             ]}
         />
 
-        <ProjectCard
-          title='SteakSoft Website'
-          desc='Official website to present developed game by SteakSoft'
-          img='Images/steaksoft.png'
-          language={['React JS']}
-
-          buttons={
-            [
-              { btnName: 'Live Demo', href: 'https://steaksoft.net/' },
-            ]}
-        />
-
-        <ProjectCard
-          title='Unikopi Website'
-          desc='Official Unikopi Website'
-          img='Images/unikopi.png'
-          language={['React JS']}
-
-          buttons={
-            [
-              { btnName: 'Live Demo', href: 'https://unikopi.com/' },
-            ]}
-        />
+       
 
       </div>
     </div>

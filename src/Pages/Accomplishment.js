@@ -23,6 +23,16 @@ function Accomplishment() {
                                 link="https://www.credly.com/badges/9860c2cd-ecf5-48a2-b6cc-ccb307e64800/public_url"
                                 img="Images/aws_ccp.png"
                             />
+                             <Badge
+                                title="Unity Certified Professional: Programmer"
+                                link="https://www.credly.com/badges/9d334daa-2dcb-4616-9113-c088f56a1fea/public_url"
+                                img="Images/unity_prof.png"
+                            />
+                            <Badge
+                                title="AWS re/start"
+                                link="Documents/aws_restart.pdf"
+                                img="Images/aws_restart.png"
+                            />
                         </div>
                     </div>
                     <div style={{ marginTop: '50px' }}></div>
