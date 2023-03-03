@@ -30,7 +30,7 @@ function Accomplishment() {
                             />
                             <Badge
                                 title="AWS re/start"
-                                link="Documents/aws_restart.pdf"
+                                link="https://www.credly.com/badges/e5836905-9533-421e-a0ec-11a940c00e7b/public_url"
                                 img="Images/aws_restart.png"
                             />
                         </div>
