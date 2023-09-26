@@ -21,6 +21,17 @@ function Project() {
             ]}
         />
 
+  <ProjectCard
+          title='Mythical Adventure'
+          desc='A simple and rewarding Idle mobile game set on Fantasy adventure that can be played anytime. This project is built prior to IGGI Gameseed 2023 & has been running for 6 months'
+          img='Images/project_ma.png'
+          language={['Unity3d', 'C#', 'Firebase','Project Management','Custom ECS']}
+          buttons={
+            [
+              { btnName: 'Download', href: 'https://play.google.com/store/apps/details?id=com.retiredgamer.mythicaladventure' },
+            ]}
+        />
+
         <ProjectCard
           title='Blackground : Second Dimension'
           desc='A simple PvP class-based game, built on top of Unity3d game engine, and Photon PUN for networking'
