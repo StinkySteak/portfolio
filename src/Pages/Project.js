@@ -43,6 +43,17 @@ function Project() {
             ]}
         />
 
+<ProjectCard
+          title='Project_P'
+          desc='A simple PvP dogfighter game made for Game Jam Plus 2023 in only 2 days. Project_P can be played up to 4 players in 1 session'
+          img='Images/project_p.png'
+          language={['Unity3d', 'C#', 'Photon Quantum']}
+          buttons={
+            [
+              { btnName: 'Live Demo', href: 'https://jonathan-benedictus.itch.io/project-p' },
+            ]}
+        />
+
 
 <ProjectCard
           title='HexPlanet'
