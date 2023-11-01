@@ -11,9 +11,10 @@ function Project() {
 
         <ProjectCard
           title='Stagdraft'
-          desc='A 2D Multiplayer Pixelated top down PvP Team based War game. Ranging between 10-16 max Players. Players are able to Craft, Build, Loot & Fight NPC'
+          desc="A 2D Multiplayer Pixelated top down PvP Team based War game. Ranging between 10-16 max Players. Players are able to Craft, Build, Loot & Fight NPC. 
+          In this project I'm the only game developer (solo) and contribute on building game frameworks, implementing multiplayer features, drawing game art, game design, even doing server architecture (devOps & BackEnd)"
           img='Images/project_stagdraft.png'
-          language={['Unity3d', 'C#', 'Photon Fusion', 'ASP. NET', 'React JS', 'AWS']}
+          language={['Unity3d', 'C#', 'Photon Fusion', 'ASP. NET', 'React ', 'Docker','AWS']}
           buttons={
             [
               { btnName: 'Website', href: 'https://stagdraft.steaksoft.net' },
@@ -23,7 +24,7 @@ function Project() {
 
   <ProjectCard
           title='Mythical Adventure'
-          desc='A simple and rewarding Idle mobile game set on Fantasy adventure that can be played anytime. This project is built prior to IGGI Gameseed 2023 & has been running for 6 months'
+          desc="A simple and rewarding Idle mobile game set on Fantasy adventure that can be played anytime. This project is built prior to IGGI Gameseed 2023 & has been running for 6 months. I'm the lead programmer on this project, my tasks was managing timeline, creation custom ECS Framework, optimization, and game design decisions"
           img='Images/project_ma.png'
           language={['Unity3d', 'C#', 'Firebase','Project Management','Custom ECS']}
           buttons={
@@ -34,7 +35,7 @@ function Project() {
 
         <ProjectCard
           title='Blackground : Second Dimension'
-          desc='A simple PvP class-based game, built on top of Unity3d game engine, and Photon PUN for networking'
+          desc='A simple PvP class-based game, built on top of Unity3d game engine, and Photon PUN for networking. Another solo development project I developed, the first project I made it comercially and multiplayer'
           img='Images/project_bgsd.png'
           language={['Unity3d', 'C#', 'Photon PUN']}
           buttons={
@@ -45,7 +46,7 @@ function Project() {
 
 <ProjectCard
           title='Project_P'
-          desc='A simple PvP dogfighter game made for Game Jam Plus 2023 in only 2 days. Project_P can be played up to 4 players in 1 session'
+          desc="A simple PvP dogfighter game made for Game Jam Plus 2023 in only 2 days. Project_P can be played up to 4 players in 1 session. I Lead this project on around 3 peoples, I'm assigned as the game programmer"
           img='Images/project_p.png'
           language={['Unity3d', 'C#', 'Photon Quantum']}
           buttons={
@@ -57,7 +58,7 @@ function Project() {
 
 <ProjectCard
           title='HexPlanet'
-          desc='A Game built prior to Binus Game Jam 2022 in 2 days'
+          desc='A Game built prior to Binus Game Jam 2022 in 2 days. As Lead Developer'
           img='Images/hex.png'
           language={['Unity3d','C#']}
 
@@ -69,7 +70,7 @@ function Project() {
         />
         <ProjectCard
           title='ISP I SPY'
-          desc='Overwatch/TF2 reference based game, built for Global Game Jam 2022. Playable up to 6 Players'
+          desc="Overwatch/TF2 reference based game, built for Global Game Jam 2022. Playable up to 6 Players. As Lead Multiplayer Programmer"
           img='Images/isp.png'
           language={['Unity3d', 'C#', 'Photon Fusion']}
           buttons={
