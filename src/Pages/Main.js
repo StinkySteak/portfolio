@@ -3,8 +3,8 @@ import './Main.css'
 
 function Main() {
     return (
-        <div className='main bg  flex-center'>
-            <div className='width-50  main-left '>
+        <div className='main bg flex-center'>
+            <div className='width-50 main-left '>
                 <div className='main-left-text flex-right'>
                     <div>
                         <h1 className='text-64 main-header'>Timothy Edrick</h1>
