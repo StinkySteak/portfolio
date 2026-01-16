@@ -10,8 +10,8 @@ function AboutMe() {
         <div className=''>
           <h1 className='text-64 abt-h1 color-bright'>ABOUT ME</h1>
           <h2 className='abt-h2 color-bright'>
-            I'm an Indie game developer, a Game Enthusiast, was borned in Palembang, Indonesia.
-            Graduated from University Technology Sydney as Diploma of Information Technology.
+            I'm very flexible in my programming profession, I can do backend, frontend, game development, cloud computing, blockchain, blender.
+I have been learning Unity & C# since 2018
           </h2>
         </div>
       </div>
