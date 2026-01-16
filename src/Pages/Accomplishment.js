@@ -49,10 +49,6 @@ function Accomplishment() {
                             link="Documents/aws_ccp_e.pdf"
                             img="Images/aws_ccp_e.jpg"
                         />
-
-                        <Badge
-                            title="IELTS 6.0"
-                        />
                     </div>
                 </div>
             </div>
